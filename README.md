@@ -1,14 +1,14 @@
 # Matplotlib Challenge
 
 ## Prompt
-Using the provided dataset create visualizations and a top level report for a cancer pharmaceutical drug trial.
+Using the provided dataset create visualizations and a top-level report for a cancer pharmaceutical drug trial.
 Create the following visualizations:
 * Bar
 * Pie
 * Box and Whisker
 * Line
 * Scatter
-* Correltation and Regression
+* Correlation and Regression
 
 ## Process  
 **Dependencies and Setup**  
@@ -25,7 +25,7 @@ For overview of all the cancer drugs used in this study a bar chart is the best 
 <img src="images/bar.png" height="auto"> 
 
 **Pie Chart**  
-A pie chart is used to check the gender split in the dataset. This was we can see if any correlation can be drawn between treatments and genders. The count of each gender is calculated by using `.loc()` to select by each gender. A few extra parameters were added to the pyplot to format the percent and each gender was assigned a shade of green to help visually seperate the pie wedges.
+A pie chart is used to check the gender split in the dataset. This was we can see if any correlation can be drawn between treatments and genders. The count of each gender is calculated by using `.loc()` to select by each gender. A few extra parameters were added to the pyplot to format the percent and each gender was assigned a shade of green to help visually separate the pie wedges.
 
 <img src="images/pie.png" height="auto"> 
 
@@ -39,13 +39,5 @@ To show the tumor volume over time for subjects getting the Capomulin treatment 
 **Scatter Plot** 
 
 **Correlation and Regression** 
-
-
-
-
-
-
-
-
 
 
