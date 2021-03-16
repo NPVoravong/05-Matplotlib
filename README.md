@@ -31,7 +31,7 @@ A pie chart is used to check the gender split in the dataset. This was we can se
 
 **Box and Whisker Plot** 
 
-**Line Plot** 
+**Line Plot**  
 To show the tumor volume over time for subjects getting the Capomulin treatment the best option is a line plot. Passing the timepoint column for the x-axis and Tumor Volume (mm3) for the y-axis will generate that graph. Axes and Title are added for useability.
 
 <img src="images/line.png" height="auto"> 
