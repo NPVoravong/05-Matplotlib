@@ -29,15 +29,19 @@ A pie chart is used to check the gender split in the dataset. This was we can se
 
 <img src="images/pie.png" height="auto"> 
 
-**Box and Whisker Plot** 
+**Box and Whisker Plot**  
+To get an overall understanding of the different drug regimens a box and whisker plot is the best option. It will also help to find any outliers as we can see with the Infubinol drug.
+
+<img src="images/box_whisker.png" height="auto"> 
 
 **Line Plot**  
 To show the tumor volume over time for subjects getting the Capomulin treatment the best option is a line plot. Passing the timepoint column for the x-axis and Tumor Volume (mm3) for the y-axis will generate that graph. Axes and Title are added for useability.
 
 <img src="images/line.png" height="auto"> 
 
-**Scatter Plot** 
+**Scatter Plot, Correlation. and Regression**  
+Using Capomulin as the drug regimen we can see that as the tumor volume goes up the weight also increases. To test quantify this observation a linear regression is applied to the scatter plot. Using the formula for a line and scipy.stats we get an r-squared value of 0.87. Meaning there is a strong correlation between weight and tumor volume.
 
-**Correlation and Regression** 
+ <img src="images/scatter.png" height="auto"> 
 
 
