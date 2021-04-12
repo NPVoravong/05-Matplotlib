@@ -10,7 +10,7 @@ Create the following visualizations:
 * Scatter
 * Correlation and Regression
 
-# Dependencies and Setup**  
+# Dependencies and Setup
 * Pandas
 * Matplotlib Pyplot
 * Scipy 
