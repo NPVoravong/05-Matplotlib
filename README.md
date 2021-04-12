@@ -1,4 +1,4 @@
-# Matplotlib Challenge
+# Drug Trial Visualizations
 
 ## Prompt
 Using the provided dataset create visualizations and a top-level report for a cancer pharmaceutical drug trial.
