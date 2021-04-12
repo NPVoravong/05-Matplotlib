@@ -1,6 +1,6 @@
 # Drug Trial Visualizations
 
-## Prompt
+# Prompt
 Using the provided dataset create visualizations and a top-level report for a cancer pharmaceutical drug trial.
 Create the following visualizations:
 * Bar
@@ -10,11 +10,12 @@ Create the following visualizations:
 * Scatter
 * Correlation and Regression
 
-## Process  
-**Dependencies and Setup**  
+# Dependencies and Setup**  
 * Pandas
 * Matplotlib Pyplot
 * Scipy 
+
+# Process  
 
 **Data Cleaning**  
 Based upon information provided about the dataset we know that no subject should have more then 10 timepoints. Using `value_counts()` to check we see that subject g989 has 13 entries. Using `.loc` we can see that id g989 is a duplicate. Once that is removed from the dataset we can use the clean dataset to create some graphs.
